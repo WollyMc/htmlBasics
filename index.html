@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Cheat Sheet</title>
+</head>
+<body>
+<!== This is a comment ==>
+<h1>Heading One</h1>
+<h2>Headding two</h2>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</strong>Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p>
+	<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em>
+</p>
+<br>
+<!==Linkinking==>
+<a href="http://google.co.uk" target="_blank"><h1>Google</h1></a>
+<!==Lists==>
+<ul>
+	<li>1</li>
+	<li>2</li>
+</ul>
+<ol>
+	<li>One</li>
+	<li>Two</li>
+</ol>
+<!==Table==>
+<table>
+	<thead>
+		<tr> <!==Table Row==>
+			<th>Name</th> <!==Header Cell==>
+			<th>Email</th>
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Aayush</td><!==Standard Cell==>
+			<td>aa@outlook.com</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Ram</td><!==Standard Cell==>
+			<td>ra@outlook.com</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Rima</td><!==Standard Cell==>
+			<td>rm@outlook.com</td>
+			<td>19</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<hr> <!==Horizontal rule==>
+<br>
+<!==Forms ... Only for the look of it... need php for functionality==>
+<form action="process.php" metho="GET"> <!==method can be GET or POST, post are used to add data to a database and for GET we can se the data get filled in like say for search where we are not adding data to a server==>
+
+	<div> <!==div(block level element) puts them in a new line==>
+		<label>First Name</label>
+		<input type="text" name="first-name">
+	</div>
+	<br>
+	<div>
+		<label>Last Name</label>
+		<input type="text" name="last-name" placeholder="Enter Last Name"> <!==Placeholder==>
+	</div>
+	<br>
+	<div>
+		<label>Email</label>
+		<input type="email" name="email">
+	</div>
+	<br>
+	<div>
+		<label>Message</label>
+		<textarea name="message"> </textarea>
+	</div>
+	<br>
+	<div>
+		<label>Gender</label>
+		<select name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+	</div>
+	<br>
+	<div>
+		<label>Age</label>
+		<input type="number" name="age" value="18"> <!==pre-defined value==>
+	</div>
+	<br>
+	<div>
+		<label>Birthday</label>
+		<input type="date" name="Birthday">
+	</div>
+	<br>
+	<input type="submit" name="submit" value="Submit">
+</form>
+<!==Button Outside form==>
+<br>
+<button>Click</button>
+<br>
+<img src="https://goo.gl/images/f2DJVE" alt="Radiohead.jpg"> <!==it can't find the image==>
+<br>
+<img src="images/radiohead.jpg">
+<br>
+</body>
+</html>
